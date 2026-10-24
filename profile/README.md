@@ -22,9 +22,13 @@ RHEL images are **BYOL** — we do not sell Red Hat licenses.
 | [rhel10-stig](https://github.com/stigready/rhel10-stig) · [rhel10-cis](https://github.com/stigready/rhel10-cis) | RHEL 10 STIG / CIS roles |
 | [ubuntu24-stig](https://github.com/stigready/ubuntu24-stig) · [ubuntu24-cis](https://github.com/stigready/ubuntu24-cis) | Ubuntu 24.04 STIG / CIS roles |
 | [ubuntu22-stig](https://github.com/stigready/ubuntu22-stig) · [ubuntu22-cis](https://github.com/stigready/ubuntu22-cis) | Ubuntu 22.04 STIG / CIS roles |
+| [cs10-stig](https://github.com/stigready/cs10-stig) · [cs10-cis](https://github.com/stigready/cs10-cis) | CentOS Stream 10 STIG / CIS roles |
+| [cs9-stig](https://github.com/stigready/cs9-stig) · [cs9-cis](https://github.com/stigready/cs9-cis) | CentOS Stream 9 STIG / CIS roles |
 | [al2023-cis](https://github.com/stigready/al2023-cis) | Amazon Linux 2023 CIS role |
+| [ol10-stig](https://github.com/stigready/ol10-stig) | Oracle Linux 10 STIG role |
 | [ol9-stig](https://github.com/stigready/ol9-stig) | Oracle Linux 9 STIG role |
 | [debian12-cis](https://github.com/stigready/debian12-cis) | Debian 12 CIS role |
+| [stigready-baseline](https://github.com/stigready/stigready-baseline) | The StigReady Base baseline role (sshd, kernel sysctls, mount options); not a benchmark profile |
 
 Pin a release tag when you install — do not track `main`.
 
