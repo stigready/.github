@@ -1,0 +1,11 @@
+# Blank issues stay enabled: role-bug.yml is the only form, and these defaults
+# also reach stigready-web and this repo, where a role-bug form does not fit.
+# Security reports and image or listing questions go to the links below, not to issues.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/stigready/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Email support@stigready.com as the security policy describes.
+  - name: Help with an image, a Marketplace listing or evidence
+    url: https://github.com/stigready/.github/blob/main/SUPPORT.md
+    about: Email support@stigready.com with the product name, version, AMI ID and region.

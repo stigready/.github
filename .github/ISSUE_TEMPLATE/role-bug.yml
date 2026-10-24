@@ -1,0 +1,64 @@
+name: Role bug
+description: A StigForge role did something wrong on a host
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a bug in a StigForge Ansible role. For a security problem, do not open an issue: follow the [security policy](https://github.com/stigready/.github/blob/main/SECURITY.md). For an image, a listing or evidence, email support@stigready.com.
+
+        The known risks of the current roles are on the [StigReady organization page](https://github.com/stigready). Do not paste passwords, keys, tokens or hostnames you need to keep private.
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      description: The repo name, for example rhel9-stig.
+    validations:
+      required: true
+  - type: input
+    id: tag
+    attributes:
+      label: Tag
+      description: The release tag you applied, for example v0.3.49. If you used main or a commit, say so.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS and version
+      description: Of the host the role ran on, for example RHEL 9.6 x86_64. Say if it is a StigReady image, and which one.
+    validations:
+      required: true
+  - type: textarea
+    id: ran
+    attributes:
+      label: What you ran
+      description: The playbook or command, the Ansible version, and any role variables you changed.
+      render: yaml
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: The failing task, the error output, and what state the host was left in.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: dropdown
+    id: fresh
+    attributes:
+      label: Does it happen on a fresh host?
+      description: A new host of the same OS and version, with nothing applied before the role.
+      options:
+        - "Yes, it reproduces on a fresh host"
+        - "No, only on an existing host"
+        - "Not tried"
+    validations:
+      required: true
