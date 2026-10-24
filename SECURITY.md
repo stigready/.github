@@ -8,7 +8,7 @@ Email [support@stigready.com](mailto:support@stigready.com). Put "Security" in t
 
 Do not open a public issue, pull request or discussion for a security problem.
 
-GitHub private vulnerability reporting is being turned on repo by repo. It is not on yet. Once it is on for a repo, that repo's **Security** tab shows **Report a vulnerability**, and you can use that instead of email. Until then, email is the only private channel.
+Or use GitHub private vulnerability reporting: in any stigready repo, open the **Security** tab and choose **Report a vulnerability**. It is on for every public stigready repo.
 
 We have no PGP key. Do not send passwords, private keys, tokens or customer data by email. Describe the problem, and we will agree with you how to share anything sensitive.
 
@@ -34,7 +34,7 @@ We have no PGP key. Do not send passwords, private keys, tokens or customer data
    - **The site or a listing:** we correct the page or the listing copy.
 4. We tell you when the fix is released.
 
-Please keep the problem private until the fix is released, or until we agree a date with you.
+Please keep the problem private until the fix is released, or until we agree a date with you. If we have not agreed a date, you may publish 90 days after your report.
 
 We do not promise a response or fix time. We have no bug bounty and do not pay for reports.
 
@@ -52,6 +52,7 @@ If the problem is in an OS package or in ComplianceAsCode content rather than in
 
 - RHEL 10 images have no CVE scan yet. Use your own scanner on them.
 - The known risks of the current roles are listed on the [StigReady organization page](https://github.com/stigready). You do not need to report those, but new detail is welcome.
+- Role release tags are not signed or protected yet. Pin a tag and review the diff before you upgrade.
 
 ## Testing
 
