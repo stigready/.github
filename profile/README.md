@@ -53,7 +53,7 @@ DISA and CIS publish no STIG or benchmark for CentOS Stream; those roles apply t
 
 - An image, a listing or evidence: [support@stigready.com](mailto:support@stigready.com).
 - A role: open an issue in that role's repo.
-- A security problem: these repos have no private vulnerability reporting yet. Email [support@stigready.com](mailto:support@stigready.com) instead of opening a public issue.
+- A security problem: do not open a public issue. Use **Report a vulnerability** on the repo's Security tab, or email [support@stigready.com](mailto:support@stigready.com). See the [security policy](https://github.com/stigready/.github/blob/main/SECURITY.md).
 
 ## Notices
 
