@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 StigReady
+# SPDX-License-Identifier: LicenseRef-StigReady-Proprietary
 name: Role bug
 description: A StigForge role did something wrong on a host
 title: "[bug] "
