@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 StigReady
+# SPDX-License-Identifier: LicenseRef-StigReady-Proprietary
 # Blank issues stay enabled: role-bug.yml is the only form, and these defaults
 # also reach stigready-web and this repo, where a role-bug form does not fit.
 # Security reports and image or listing questions go to the links below, not to issues.

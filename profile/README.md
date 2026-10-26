@@ -57,4 +57,6 @@ DISA and CIS publish no STIG or benchmark for CentOS Stream; those roles apply t
 
 ## Notices
 
+© 2026 StigReady. All rights reserved. Each role repository states its own licence and third-party notices (LICENSE, NOTICE).
+
 Not affiliated with or endorsed by DISA, DoD, NIST, CIS, Red Hat, Canonical, Oracle, Amazon, Debian, the Rocky Enterprise Software Foundation, the AlmaLinux OS Foundation, or the ComplianceAsCode project. Task bodies in the SSG-generated roles come from [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) (BSD-3-Clause, Copyright (c) 2012-2017, Red Hat, Inc.). CIS® and CIS Benchmarks™ are trademarks of the Center for Internet Security, Inc. Red Hat®, Red Hat Enterprise Linux® and CentOS are trademarks of Red Hat, Inc. Rocky Linux is a trademark of the Rocky Enterprise Software Foundation. AlmaLinux is a trademark of the AlmaLinux OS Foundation. Ubuntu® is a trademark of Canonical Ltd. Oracle Linux is a trademark of Oracle. Amazon Linux is a trademark of Amazon.com, Inc. Debian is a trademark of Software in the Public Interest, Inc. All trademarks are the property of their respective owners. StigReady does not provide commercial licenses for Red Hat products.
